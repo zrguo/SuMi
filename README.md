@@ -11,13 +11,15 @@ Three Key Components:
 - Sample identification: identifying the samples that are beneficial for the model adaptation.
 - Mutual information sharing: enhancing robustness of the model.
 
-<img src="sumi.png"  align = "middle" width="450px" />
+<img src="sumi.png"  align = "middle" width="650px" />
 
 ## Getting Started
 ### Installation
 ```bash
 git clone https://github.com/zrguo/SuMi
 ```
+
+Package Requirements: torch, torchaudio, timm, scikit-learn, numpy
 
 
 ### Preparing the data
@@ -32,8 +34,7 @@ python main.py --dataset 'ks50' --json-root [json-root] --label-csv [label-csv] 
 ## Citation
 If you find this code useful, please cite our paper:
 ```bibtex
-@inproceedings{
-guo2025smoothing,
+@inproceedings{guo2025smoothing,
     title={Smoothing the Shift: Towards Stable Test-Time Adaptation under Complex Multimodal Noises},
     author={Zirun Guo and Tao Jin},
     booktitle={The Thirteenth International Conference on Learning Representations},
