@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+/plot
+/checkpoints
+.DS_Store
+/pretrained
+/logs
+/json_csv_files
