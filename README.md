@@ -19,6 +19,8 @@ Three Key Components:
 git clone https://github.com/zrguo/SuMi
 ```
 
+Package Requirements: torch, torchaudio, timm, scikit-learn, numpy
+
 
 ### Preparing the data
 You can prepare the data by following the instructions of the [benchmark](https://github.com/XLearning-SCU/2024-ICLR-READ).
